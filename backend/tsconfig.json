@@ -6,7 +6,8 @@
     "sourceMap": true,
     "skipLibCheck": true,
     "outDir": "dist",
-     "rootDir": "src"
+     "rootDir": "src",
+      "typeRoots": ["./src/types", "./node_modules/@types"]
 
   }
 }

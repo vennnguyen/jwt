@@ -3,7 +3,7 @@ import {
   signInController,
   signOutController,
   signUpController,
-} from "../controllers/auth/signUpController";
+} from "../controllers/authController";
 const router = express.Router();
 router.post("/sign-up", signUpController);
 router.post("/sign-in", signInController);

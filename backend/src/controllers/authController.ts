@@ -5,7 +5,7 @@ import {
   deleteSession,
   findUser,
   isUserExits,
-} from "../../service/auth";
+} from "../service/auth";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import "dotenv/config";
